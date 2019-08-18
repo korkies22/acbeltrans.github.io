@@ -1,0 +1,55 @@
+.global
+{
+  background-color: white;
+}
+
+.icono
+{
+  margin: 0px 0px 0px 0px;
+}
+
+.nav
+{
+  font-family: 'Cardo', serif;
+  font-size: 25px;
+  font:white;
+}
+
+.main
+{
+  padding: 140px;
+  background: linear-gradient(to right, rgba(221,213,214,1) 0%, rgba(255,255,255,1) 100%);
+  font-family: 'Cardo', serif;
+  font-size: 70px;
+}
+
+.a-item
+{
+  color:black;
+}
+
+.a-item:hover
+{
+  color:black;
+}
+
+.li-item
+{
+  margin: 0px 15px 0px 15px;
+}
+
+.col-item
+{
+  border: #697184 1px solid !important;
+  margin: 30px 0px 30px 0px;
+}
+.p-title
+{
+  font-family: 'Paprika', cursive;
+  font-size: 30px;
+}
+.p-text
+{
+  font-family: Helvetica, Sans-Serif;
+}
+
