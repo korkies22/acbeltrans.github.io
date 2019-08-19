@@ -3,16 +3,10 @@
   background-color: white;
 }
 
-.icono
-{
-  margin: 0px 0px 0px 0px;
-}
-
 .nav
 {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 25px;
-  font:white;
 }
 
 .main
@@ -26,7 +20,7 @@
 
 .main-journey
 {
-  padding: 193px 200px 193px 135px;
+  padding: 192px 200px 192px 135px;
   background: linear-gradient(135deg, rgba(193,245,243,1) 0%, rgba(223,254,210,1) 100%);
   font-family: 'Exo', sans-serif;
   font-size: 70px;
@@ -51,7 +45,7 @@
 .col-item
 {
   border: #697184 1px solid !important;
-  margin: 30px 0px 30px 0px;
+  margin: 15px 0px 15px 0px;
 }
 .p-title
 {
@@ -64,3 +58,23 @@
   font-size: 20px;
 }
 
+.iconos
+{
+  margin: 0px 15px 0px 15px;;
+}
+
+.contacto
+{
+  margin: 0px 40px 0px 40px;
+}
+
+.link-redes
+{
+  margin: 0px 20px 0px 20px;
+}
+
+.footer-item
+{
+  background-color: black
+  margin:50px;
+}
