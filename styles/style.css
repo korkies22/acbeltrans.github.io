@@ -71,6 +71,8 @@
 .link-redes
 {
   margin: 0px 20px 0px 20px;
+  /* carlos-sarmiento: Esto hace que la etiqueta "a" envuelva la imagen entera, y no solo una rayita como se ve en el inspector de html */
+  display:inline-block;
 }
 
 .imagen-timeline
