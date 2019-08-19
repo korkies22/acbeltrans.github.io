@@ -10,7 +10,7 @@
 
 .nav
 {
-  font-family: 'Cardo', serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 25px;
   font:white;
 }
@@ -18,9 +18,19 @@
 .main
 {
   padding: 140px;
-  background: linear-gradient(to right, rgba(221,213,214,1) 0%, rgba(255,255,255,1) 100%);
-  font-family: 'Cardo', serif;
+  background: linear-gradient(to right, rgba(239,183,186,1) 0%, rgba(255,255,255,1) 100%);
+  font-family: 'Exo', sans-serif;
   font-size: 70px;
+  font-style: italic;
+}
+
+.main-journey
+{
+  padding: 193px 200px 193px 135px;
+  background: linear-gradient(135deg, rgba(193,245,243,1) 0%, rgba(223,254,210,1) 100%);
+  font-family: 'Exo', sans-serif;
+  font-size: 70px;
+  font-style: italic;
 }
 
 .a-item
@@ -50,6 +60,7 @@
 }
 .p-text
 {
-  font-family: Helvetica, Sans-Serif;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
 }
 
