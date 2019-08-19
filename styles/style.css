@@ -88,6 +88,18 @@
   margin: 70px 0px 0px 0px;
 }
 
+/* Sugiero esta mediaQuery para que desde ese ancho de pantalla para abajo se ajuste el padding y el texto principal se alinea a la mitad. Es solo una sugerencia*/
+@media (max-width: 580px) {
+  .jumbotron >p,.jumbotron >h1 
+  {
+    width:78vw;
+  }
+  .main,.main-journey
+  {
+    padding:50px;
+	}
+}
+
 .button-item {
 
   background: rgba(193,245,243,1)
