@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,6 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="scripts/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -41,12 +43,10 @@
     </div>
   </nav>
 
-
-
   <div>
-    <div class="main-journey jumbotron jumbotron-fluid text-left">
+    <div class="main-journey jumbotron jumbotron-fluid text-center">
       <p>Systems engineer:</p>
-      <h1>Why, How and What</h1>
+      <h1>Why and What</h1>
     </div>
   </div>
 
@@ -62,7 +62,7 @@
       </div>
       <div class="col-sm-12 col-md-4 col-lg-5 col-x1-5 col-item pt-lg-5 pt-xl-5">
         <p>
-          Imagen
+          <img class="img-fluid" alt="Responsive image" src="images/codigo.jpg">
         </p>
       </div>
     </div>
@@ -71,39 +71,28 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-5 col-x1-5 col-item pt-lg-5 pt-xl-5">
-        <p>
-          Imagen
-        </p>
+        <img class="img-fluid" alt="Responsive image" src="images/lenguajes.png">
       </div>
       <div class="col-sm-0 col-md-8 col-lg-7 col-x1-7 col-item">
         <p class="p-title">
-          ¿How?
-        </p>
-        <p class="text-justify p-text">
-          Texto
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-0 col-md-8 col-lg-7 col-x1-7 col-item">
-        <p class="p-title">
+          <br>
           ¿What?
         </p>
         <p class="text-justify p-text">
           So, ¿what do I do? I dedicate myself to the development of applications and software. I have knowledge in different languages and in different types of technologies or tools such as: SQDeveloper, AWS, MongoDB, Django, Bootstrap and Angular. My main interests are Artificial Intelligence (AI), computer security and the use of technology focused on medicine through synthetic biology.
         </p>
       </div>
-      <div class="col-sm-12 col-md-4 col-lg-5 col-x1-5 col-item pt-lg-5 pt-xl-5">
-        <img class="img-fluid" alt="Responsive image" src="images/lenguajes.png">
-      </div>
     </div>
   </div>
 
-  <footer>
-    <p></p>
+  <div class="container">
+    <button class="button-item" type="button" onclick="displayTimeline()">Hide Timeline</button>
+    <div class="col-sm-12 col-md-4 col-lg-5 col-x1-5 pt-lg-5 pt-xl-5 timeline mx-auto" id="timeline">
+      <img class="img-fluid imagen-timeline" src="./images/timeline.jpg" alt="timeline">
+    </div>
+  </div>
+
+  <footer id="footer-journey">
   </footer>
 
 </body>
