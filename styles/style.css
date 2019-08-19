@@ -105,6 +105,8 @@
   text-decoration:none;
   text-shadow:0px 1px 0px #3d768a;
   margin: 10px 0px 10px 0px;
+  /* carlos-sarmiento: Es bueno quitarle el outline al botón para que cuando se le haga click no quede un cuadro azul*/
+  outline:none;
 }
 
 .button-item:active {
